@@ -776,7 +776,7 @@ a{
 }
 
 .header .header-ogrenci-container .container{
-    margin: 5rem;
+    margin: 4rem 18rem 4rem 18rem;
     
 }
 
@@ -792,11 +792,11 @@ a{
     justify-content: center;
     border-radius: 5px;
     transition: 1s;
+    
 }
 
 .header .header-ogrenci-container .container ul {
-    display: grid;
-    grid-template-columns: repeat(3,1fr);
+    
 }
 
 .header .header-ogrenci-container .container ul a{
