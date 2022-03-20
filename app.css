@@ -82,7 +82,7 @@
         flex-direction: column;
    }
    .header .container{
-       margin: 2rem;
+       margin: .5rem;
    }
 
 
@@ -153,10 +153,19 @@
 
 
    .header .ogretmenler-container .container .teach{
-       display: flex;
-       flex-direction: row;
-       flex-wrap: wrap;
+       grid-template-columns: auto;
    }   
+
+   .header .bil-tek-container .container h1{
+       margin: .5rem;
+       font-size: 1rem;
+   }
+
+   
+
+   .header .ogretmenler-container .container{
+       margin: .5rem;
+   }
 
    ul li{
        margin: 1rem;
